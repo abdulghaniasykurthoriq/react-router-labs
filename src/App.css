@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.active{
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: blue;
+}
+.mantap{
+  text-decoration: none;
+  color: white;
+}
+
+.header-wrap{
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.nav-menu{
+  display: flex;
+}
+
+.nav-menu-item{
+  padding: 0 2rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
